@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <style>
+        body {
+            margin: 0%;
+        }
+        
+        ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color: #333;
+        }
+        
+        li {
+            float: right;
+            padding-right: 20px;
+        }
+        
+        li a {
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+        
+        li a:hover:not(.active) {
+            background-color: #111;
+        }
+        
+        .active {
+            background-color: #4CAF50;
+        }
+        
+        .blogtitle {
+            float: left;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+        }
+        
+        section {
+            margin: 0%;
+        }
+        
+        * {
+            box-sizing: border-box;
+        }
+        
+        .column1 {
+            float: left;
+            width: 80%;
+            padding: 20px;
+        }
+        
+        .column2 {
+            float: right;
+            width: 20%;
+            padding: 20px;
+            background-color: #fff;
+        }
+        
+        .row:after {
+            content: "";
+            display: table;
+            clear: both;
+        }
+        
+        .readmore {
+            float: right;
+            background-color: #f80000;
+            color: white;
+            border-radius: 4px;
+            text-decoration: none;
+            text-align: center;
+            padding: 3px;
+            box-shadow: rgba(17, 17, 17, 0.692) 2px 5px 20px 1px;
+        }
+        
+        .trending {
+            text-align: center;
+            font-size: ;
+        }
+        
+        .trandtop {
+            padding-left: 30px;
+            background-color: rgba(155, 155, 155, 0.747);
+            padding: 8px;
+        }
+        
+        .prev {
+            float: left;
+            text-decoration: none;
+            background-color: #4CAF50;
+            padding: 8px;
+        }
+        
+        .next {
+            float: right;
+            text-decoration: none;
+            background-color: #4CAF50;
+            padding: 8px;
+        }
+    </style>
+    <title>STUDENT BLOG</title>
+</head>
+
+<body>
+    <!--Navbar-->
+    <ul>
+        <li class="blogtitle">Student Blog</li>
+        <li><a href="login.html">Login</a></li>
+        <li><a href="#">Contact</a></li>
+        <li><a href="#">Protofoil</a></li>
+        <li><a class="active" href="#">Home</a></li>
+    </ul>
+    <!-- Navbar Ends-->
+
+    <section>
+        <div class="row">
+            <div class="column1" style="background-color:#aaa;">
+                <h3>Article 1</h3>
+                <h2>Covid-19 – Effect On Student Life</h2>
+                <img src="https://www.fda.gov/files/covid19-1600x900.jpg" alt="" width="250px" style="border-radius: 8px;">
+                <p>Covid-19 – Effect On Student Life I being an Intermediate student, I want to share my experience on the Covid-19 Lockdown and Unlock for student’s life. During this coronavirus time as being students, have advantages and disadvantages.
+                    I was initially happy about the virus because there was a lockdown all over India, there were no schools and colleges, had an ash life initially enjoying all the day with playing games, watching movies right from the morning to the
+                    night. At once, an instant of time, I thought there was no movie for me to watch. Waiting for unlocking situation to meet friends and relatives. Still, things are not settled to meet the friends and relatives. </p>
+                <a href="#" class="readmore">Read More</a>
+            </div>
+
+
+            <div class="column2">
+                <h2 class="trending">Trending Articles</h2>
+                <p class="trandtop">Covid-19 – Effect On Student Life</p>
+                <p class="trandtop">Healthy Food Options for Busy College Students</p>
+                <p class="trandtop">Healthy Food</p>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="column1" style="background-color:#aaa;">
+                <h3>Article 2</h3>
+                <h2>Healthy Food Options for Busy College Students</h2>
+                <img src="https://miro.medium.com/max/4200/1*wxte0RvJjY5q7NGBPBPwyw.jpeg" alt="" width="250px" style="border-radius: 8px;">
+                <p>Too many snacks, large meal portions, decreased activity—these poor habits are not only unhealthy, they may affect academic performance. A study from the National Institutes of Health found a correlation between eating regular meals, including
+                    breakfast and a higher consumption of fruit, with higher academic achievement. Another study from the Journal of American College Health found that students' current GPA increased significantly with the number of days that they reported
+                    eating breakfast.Healthy food is an important factor in academic success. The challenge ahead is how to make sure you’re eating well while you may be balancing work and school life. Find out more about brain food for students</p>
+                <a href="#" class="readmore">Read More</a>
+            </div>
+
+
+            <div class="column2">
+                <h2 class="trending">Become a supporters</h2>
+                <p class="trandtop">Write an article</p>
+                <p class="trandtop">Donate</p>
+                <p class="trandtop">Create Own Blog</p>
+            </div>
+        </div>
+        <div style="width: 80%; padding: 12px; padding-bottom: 20px;">
+            <a href="#" class="prev">Previous</a>
+            <a href="#" class="next">Next</a>
+        </div>
+    </section>
+
+</body>
+
+</html>
